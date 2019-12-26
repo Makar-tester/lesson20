@@ -142,4 +142,14 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+/*first task select model, speed, hd from laptop where price>700;*/
+/*second task select maker from product where type='printer';*/
+/*third task select model, ram, hd from pc where price<2300;*/
+/*fourth task select model, speed, ram from pc where price>1500&&cd='6x'||cd='4x';*/
+/*fifth task select laptop.speed, product.maker from laptop join product on 
+laptop.model = product.model
+where laptop.ram>3300;*/
+
+
+
 -- Dump completed on 2019-12-23 21:40:43
