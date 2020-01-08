@@ -149,6 +149,21 @@ UNLOCK TABLES;
 /*fifth task select laptop.speed, product.maker from laptop join product on 
 laptop.model = product.model
 where laptop.ram>3300;*/
+/*7 select maker from product where type!='laptop' and type='pc'; */
+/*8 select model, price from printer order by price desc;*/
+/*9 SELECT AVG(price) AS Average_Price FROM pc;*/
+/*10 select product.maker from pc join product on pc.model=product.model;*/
+/*11 select (select avg(speed) from pc) as average_speed from product 
+ where maker like "F_";*/
+ /*12 select (select type from product where type='laptop'), model, speed from laptop
+ where speed<(select speed from pc);*/
+ /*13 select (select maker from product where type='printer'), min(price) from printer */
+
+
+
+
+
+
 
 
 
